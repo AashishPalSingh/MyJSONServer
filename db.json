@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "ashish pal",
+      "last_name": "singh",
+      "email": "ashujss11@gmail.com"
+    },
+    {
+      "id": 2,
+      "first_name": "dharmendra",
+      "last_name": "chaudhary",
+      "email": "dharma91@gmail.com"
+    },
+    {
+      "id": 3,
+      "first_name": "hari kishan",
+      "last_name": "singh",
+      "email": "harryhk@gmail.com"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "medical"
+    },
+    {
+      "id": 2,
+      "name": "engineering"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": 1,
+      "name": "medicine",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "surgery",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "software engineering",
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "name": "chemical engineering",
+      "categoryId": 2
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "database fundamentals",
+      "subcategoryId": 3,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "web fundamentals",
+      "subcategoryId": 3,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "name": "web fundamentals",
+      "subcategoryId": 3,
+      "userId": 1
+    }
+  ]
+}
